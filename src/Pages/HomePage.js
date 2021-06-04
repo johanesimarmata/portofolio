@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
-import YoutubeIcon from '@material-ui/icons/YouTube';
 import Particle from '../Components/Particle';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 function HomePage() {
     return (
@@ -12,21 +12,16 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, I'm <span>Lorem Ipsum</span></h1>
+                <h1>Hi, I'm <span>Johanes Simarmata</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                    Computer Science Sophomore at University of Indonesia
                 </p>
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
-                        <FacebookIcon />
-                    </a>
-                    <a href="https://codepen.io/pen/" className="icon i-github">
+                    <a href="https://gitlab.com/jmpsimarmata" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-youtube">
-                        <YoutubeIcon />
+                    <a href="https://instagram.com/johanesimarmata" className="icon i-instagram">
+                        <InstagramIcon />
                     </a>
                 </div>
             </div>

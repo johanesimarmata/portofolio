@@ -1,41 +1,37 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from '../img/resume.jpg';
+import photo from '../img/myphoto.jpg'
 import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
     return (
         <ImageSectionStyled>
             <div className="left-content">
-                <img src={resume} alt=""/>
+                <img src={photo} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Lorem Ipsum</span></h4>
+                <h4>I am <span>Johanes Simarmata</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
-                    
+                    You can call me Johanes. Currently, I'm a Computer Science Sophomore at University of Indonesia.
+                    I love to learn in developing a website and I have interest in Mobile Development too. 
+                    I'm looking for a new experience from an internship or a group project.
+
                 </p>
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
                         <p>Age</p>
-                        <p>Nationality </p>
                         <p>Languages </p>
                         <p>Location</p>
-                        <p>Service</p>
                     </div>
                     <div className="info">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 36</p>
-                        <p>: Spainsh </p>
-                        <p>: Spanish, French, English </p>
-                        <p>: London, United Kingdom</p>
-                        <p>: Freelance</p>
+                        <p>: Johanes Marihot Perkasa Simarmata</p>
+                        <p>: 19</p>
+                        <p>: English & Indonesia </p>
+                        <p>: Jakarta, Indonesia</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download Cv'} />
+                <a href="https://drive.google.com/file/d/1JXTpKbRlwbEc8Q512F-1hwvLffIq8AFI/view?usp=sharing"><PrimaryButton title={'Download Cv'} /></a>
             </div>
         </ImageSectionStyled>
     )

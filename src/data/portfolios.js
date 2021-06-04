@@ -1,53 +1,25 @@
-import img1 from '../img/portImages/maya-1.jpg';
-import img2 from '../img/portImages/maya-4.jpg';
-import img3 from '../img/portImages/maya-3.jpg';
+import tkppw from '../img/portImages/tk_ppw.png'
+import finalProjectReact from '../img/portImages/finalproject_react.png'
 
 const portfolios = [
     {
         id: 1,
-        category: 'Python',
-        image: img1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Python',
-        text: 'Numper one Programming language'
+        category: '',
+        image: tkppw,
+        link1: 'https://gitlab.com/sasfort/tugas-kelompok-1-ppw',
+        link2: 'https://ppw-tk1.herokuapp.com/trendy/',
+        title: 'Shoes Online Shop',
+        text: 'Group Project from my web lecture. Created with django with HTML, CSS, Bootstrap, JavaScript, Ajax with unit tests and functional tests with selenium and heroku for the deployment'
     },
     {
         id: 2,
-        category: 'Python',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        category: '',
+        image: finalProjectReact,
+        link1: 'https://github.com/johanesimarmata/IM-Sanbercode-Reactjs-Batch-24/tree/master/final-project',
+        link2: 'https://keen-curran-850782.netlify.app/',
+        title: 'Movies and Games Info and Editor',
+        text: 'Final Project React Bootcamp with Sanbercode. I built this website with React JS with combinations of HTML, CSS, JavaScript, and Ant Design Library. Use React Router, Context, Hooks, Axios, Authentication with JSON Web Token (JWT) and netlify for the deployment'
     },
-    {
-        id: 3,
-        category: 'Javascript',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-    {
-        id: 4,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 5,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    }
 ]
 
 export default portfolios;

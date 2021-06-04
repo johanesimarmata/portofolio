@@ -12,14 +12,14 @@ function Skills() {
                 <InnerLayout>
                     <div className="skills">
                         <ProgressBar 
-                            title={'HTML5'}
-                            width={'70%'}
-                            text={'70%'}
+                            title={'PYTHON'}
+                            width={'85%'}
+                            text={'85%'}
                         />
                         <ProgressBar 
-                            title={'CSS3'}
-                            width={'90%'}
-                            text={'90%'}
+                            title={'JAVA'}
+                            width={'92%'}
+                            text={'92%'}
                         />
                         <ProgressBar 
                             title={'JAVASCRIPT'}
@@ -27,22 +27,32 @@ function Skills() {
                             text={'85%'}
                         />
                         <ProgressBar 
-                            title={'JAVA'}
-                            width={'60%'}
-                            text={'60%'}
+                            title={'HTML5'}
+                            width={'85%'}
+                            text={'85%'}
                         />
                         <ProgressBar 
-                            title={'PYTHON'}
-                            width={'95%'}
-                            text={'95%'}
+                            title={'CSS3'}
+                            width={'70%'}
+                            text={'70%'}
                         />
                         <ProgressBar 
                             title={'React JS'}
+                            width={'85%'}
+                            text={'85%'}
+                        />
+                        <ProgressBar 
+                            title={'Django'}
                             width={'75%'}
                             text={'75%'}
                         />
                         <ProgressBar 
-                            title={'UNITY'}
+                            title={'Spring Boot'}
+                            width={'80%'}
+                            text={'80%'}
+                        />
+                        <ProgressBar 
+                            title={'PostgreSQL'}
                             width={'75%'}
                             text={'75%'}
                         />
