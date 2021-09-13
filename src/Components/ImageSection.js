@@ -10,11 +10,14 @@ function ImageSection() {
                 <img src={photo} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Johanes Simarmata</span></h4>
+                <h4>I am <span>Johanes</span></h4>
                 <p className="paragraph">
-                    You can call me Johanes. Currently, I'm a Computer Science Sophomore at University of Indonesia.
-                    I love to learn in developing a website and I have interest in Mobile Development too. 
-                    I'm looking for a new experience from an internship or a group project.
+                    Currently, I'm a Penultimate Computer Science Student at University of Indonesia. 
+                    Besides of being a Computer Science Student, I am currently doing an internship as a Front End Developer at PT. Inspirasi Mandiri Nusantara. 
+                    I have a big interest in Information and Technology sector especially in the field of Website/Mobile developer. 
+                    As a student, I actively participated in several organizations to improve my skill to work as a team. I took full responsibility for those organizations with also staying focus on college. 
+                    Therefore, I'm looking for an opportunity to be able to contribute further in Information and Technology Industry to apply my knowledge and interest in this sector.
+
 
                 </p>
                 <div className="about-info">
@@ -65,6 +68,7 @@ const ImageSectionStyled = styled.div`
         }
         .paragraph{
             padding: 1rem 0;
+            text-align: justify;
         }
         .about-info{
             display: flex;

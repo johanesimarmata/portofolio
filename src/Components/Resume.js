@@ -19,14 +19,20 @@ function Resume() {
             <Title title={'Resume'} span={'resume'} />
             <InnerLayout>
                 <div className="small-title">
-                    <SmallTitle icon={briefcase} title={'Organization Experience'} />
+                    <SmallTitle icon={briefcase} title={'Work Experience'} />
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'2020 - Now'} 
+                        year={'2021 - Now'} 
+                        title={'Front End Developer'}
+                        subTitle={'Kampus Indonesia - PT. Inspirasi Mandiri Nusantara'}
+                        text={'Have a given mandate as Person in Charge of Front end Developer Division. Develop website projects with Vue JS, Bootstrap, and Third Party Libraries to convert from UI Interface to Web Interface. Collaborate with Back End Division to integrate project API based on the design. Implement testing on the applications.'} 
+                    />
+                    <ResumeItem 
+                        year={'2020 - 2021'} 
                         title={'Vice Person in Charge of Business Development'}
                         subTitle={'Pesta Rakyat Komputer, Fakultas Ilmu Komputer Universitas Indonesia'}
-                        text={'Had a responsible to run work programs to earn money during pandemics and assist Pesta Rakyat Computer in Finance Division. Work as a group with my PIC to manage our staffs and collaborate with other divisions to run our work programs.'} 
+                        text={'Took full responsibility of Business Development with my person in charge and had a direct responsibility to the Manager of Finance and the Vice Project Officer of Pesta Rakyat Komputer. Worked in the Finance Division and had a responsibility to make and run work programs to earn money. Worked together with my Person in Charge to manage our staff and to collaborate with other divisions to run our work programs.'} 
                     />
                     <ResumeItem 
                         year={'2020'} 
@@ -55,13 +61,13 @@ function Resume() {
                         year={'2019 - Now'} 
                         title={'Computer Science'}
                         subTitle={'University of Indonesia'}
-                        text={'Last GPA: 3.43 out of 4.00'} 
+                        text={'Last GPA: 3.46 out of 4.00'} 
                     />
                     <ResumeItem 
-                        year={'2016-2019'} 
+                        year={'2016 - 2019'} 
                         title={'Senior High School'}
                         subTitle={'Senior High School 81 Jakarta'}
-                        text={'Majoring in Natural Science with National Exam Score: 35.4 out of 40'} 
+                        text={'Science with National Exam Score: 35.4 out of 40'} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
@@ -70,15 +76,57 @@ function Resume() {
                 <div className="resume-content ">
                     <ResumeItem 
                         year={'2021'} 
+                        title={'Fundamentals of Front-End Web Development'}
+                        subTitle={'Dicoding'}
+                        text={'Learn ES6 syntax, Web Components, and Build Tools in building websites with simple, reusable, and optimized techniques.'} 
+                    />
+                    <ResumeItem 
+                        year={'2021'} 
+                        title={'Cloud Practitioner Essentials'}
+                        subTitle={'Dicoding'}
+                        text={'Learn the basics of Cloud using AWS, from cloud computing concepts, to how to build a good architecture.'} 
+                    />
+                    <ResumeItem 
+                        year={'2021'} 
+                        title={'Creating a Front-End Web for beginners'}
+                        subTitle={'Dicoding'}
+                        text={'Learn more about JavaScript, DOM manipulation, and web storage to improve the functionality and interactivity of our website.'} 
+                    />
+                    <ResumeItem 
+                        year={'2021'} 
+                        title={'Foundations of Web Programming'}
+                        subTitle={'Dicoding'}
+                        text={'Learn of HTML, CSS, and JavaScript componenets as the main foundation of being a webstite developer.'} 
+                    />
+                    <ResumeItem 
+                        year={'2021'} 
+                        title={'React Native Mobile App Development'}
+                        subTitle={'Sanbercode'}
+                        text={'Learn to make a mobile application. Using axios, context, hooks, and navigation for final project.'} 
+                    />
+                    <ResumeItem 
+                        year={'2021'} 
+                        title={'Vue JS - Web Front End Development'}
+                        subTitle={'Sanbercode'}
+                        text={'Learn to make website interface easier becuase of the advantages of Vue JS which are light, simple and flexible. The modules are HTML, CSS, Javascript, Axios to consume API, Vue Router, State Management using Vuex, Single Page App, Build and Deployment. Chosen as participant with the best final project.'} 
+                    />
+                    <ResumeItem 
+                        year={'2021'} 
+                        title={'Data Analytics Competition'}
+                        subTitle={'Find IT Gadjah Mada University'}
+                        text={'Analyze and Predict Book Prices based on the features of the books and based on provided data.'} 
+                    />
+                    <ResumeItem 
+                        year={'2021'} 
                         title={'React JS - Web Front End Development'}
                         subTitle={'Sanbercode'}
-                        text={'Learn to build website more friendly which the modules are html, css, javascript programming, ecmascript 2015 (ES6), single page application, build and deployment'} 
+                        text={'Learn to build website more friendly which the modules are HTML, CSS, Javascript, EcmaScript 2015 (ES6), Single Page Application, Build and Deployment.'} 
                     />
                     <ResumeItem 
                         year={'2020'} 
                         title={'Python - Data Science'}
                         subTitle={'Sanbercode'}
-                        text={'Learn to manipulate data and analyze data with python programming, basic mathematical logic, real data manipulation, data visualization, machine learning competition.'} 
+                        text={'Learn to manipulate data and analyze data with Python, Basic Mathematical Logic, Real Data Manipulation, Data Visualization, Machine Learning Competition.'} 
                     />
                     <ResumeItem 
                         year={'2020'} 
@@ -99,7 +147,7 @@ function Resume() {
                         text={''} 
                     />
                     <ResumeItem 
-                        year={'2014-2018'} 
+                        year={'2014 - 2018'} 
                         title={'English for Intermediate'}
                         subTitle={'Lembaga Indonesia Amerika (LBPP LIA)'}
                         text={''} 

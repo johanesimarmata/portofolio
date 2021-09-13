@@ -14,10 +14,10 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Johanes Simarmata</span></h1>
                 <p>
-                    Computer Science Sophomore at University of Indonesia
+                    Penultimate Computer Science Student at University of Indonesia
                 </p>
                 <div className="icons">
-                    <a href="https://gitlab.com/jmpsimarmata" className="icon i-github">
+                    <a href="https://github.com/johanesimarmata" className="icon i-github">
                         <GithubIcon />
                     </a>
                     <a href="https://instagram.com/johanesimarmata" className="icon i-instagram">
