@@ -5,10 +5,10 @@ import portfolios from '../data/portfolios';
 import Menu from '../Components/Menu';
 // import Button from '../Components/Button';
 
-const allButtons = ['All', ...new Set(portfolios.map(item => item.category))]
+// const allButtons = ['All', ...new Set(portfolios.map(item => item.category))]
 
 function PortfoliosPage() {
-    const [menuItem, setMenuItems] = useState(portfolios);
+    // const [menuItem, setMenuItems] = useState(portfolios);
     // const [button, setButtons] = useState(allButtons);
 
     // const filter = (button) => {
@@ -27,7 +27,7 @@ function PortfoliosPage() {
             <InnerLayout>
 
                 {/**<Button filter={filter} button={button} />**/}
-                <Menu menuItem={menuItem} />
+                <Menu menuItem={portfolios} />
             </InnerLayout>
         </MainLayout>
     )
