@@ -30,7 +30,7 @@ function ImageSection() {
                         <p>: Jakarta, Indonesia</p>
                     </div>
                 </div>
-                <a href="https://drive.google.com/file/d/1JXTpKbRlwbEc8Q512F-1hwvLffIq8AFI/view?usp=sharing"><PrimaryButton title={'Download Cv'} /></a>
+                <a href="https://drive.google.com/file/d/1dM-I4sQgBJ7lpKASUFU6ifQBAEinMTYf/view?usp=sharing"><PrimaryButton title={'Download Cv'} /></a>
             </div>
         </ImageSectionStyled>
     )
