@@ -24,9 +24,21 @@ function Resume() {
                 <div className="resume-content">
                     <ResumeItem 
                         year={'2021 - Now'} 
-                        title={'Front End Developer'}
-                        subTitle={'Kampus Indonesia - PT. Inspirasi Mandiri Nusantara'}
-                        text={'Have a given mandate as Person in Charge of Front end Developer Division. Develop website projects with Vue JS, Bootstrap, and Third Party Libraries to convert from UI Interface to Web Interface. Collaborate with Back End Division to integrate project API based on the design. Implement testing on the applications.'} 
+                        title={'Web Developer'}
+                        subTitle={'Setya Homestay'}
+                        text={'Developing and maintaining website using React JS and Django. Designing user interface and database for the website’s features. Responsible for the deployment of Front End and Back End'} 
+                    />
+                    <ResumeItem 
+                        year={'2021 - Now'} 
+                        title={'Software Engineer Intern'}
+                        subTitle={'Payfazz - PT. Payfazz Teknologi Nusantara'}
+                        text={'Do End-to-end testing for Front End and create the setup with Jest and Puppeteer. Fix and improve the performance of Front End features to an existing project with Ant Design and React JS'} 
+                    />
+                    <ResumeItem 
+                        year={'2021'} 
+                        title={'Vice Person in Charge of E-Vote'}
+                        subTitle={'PEMILIHAN RAYA (PEMIRA) – University of Indonesia'}
+                        text={'Had a responsibility to create and maintain website during vote period. Implemented Single Sign On (SSO) - Central Authentication Service (CAS) with Django. Entered data into database to fulfill the voting mechanism and to fill in the candidate information for voting.'} 
                     />
                     <ResumeItem 
                         year={'2020 - 2021'} 
@@ -61,7 +73,7 @@ function Resume() {
                         year={'2019 - Now'} 
                         title={'Computer Science'}
                         subTitle={'University of Indonesia'}
-                        text={'Last GPA: 3.46 out of 4.00'} 
+                        text={'Last GPA: 3.53 out of 4.00'} 
                     />
                     <ResumeItem 
                         year={'2016 - 2019'} 
@@ -74,6 +86,12 @@ function Resume() {
                     <SmallTitle icon={file} title={'Licenses & Certifications'} />
                 </div>
                 <div className="resume-content ">
+                    <ResumeItem 
+                        year={'2021'} 
+                        title={'Finalist of Innovative Technology Competition (INTENTION)'}
+                        subTitle={'Informatics Festival 2021 by Padjadjaran University'}
+                        text={''} 
+                    />
                     <ResumeItem 
                         year={'2021'} 
                         title={'Fundamentals of Front-End Web Development'}
